@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Avenir Roman";
+    src: url("avenir-roman.ttf") format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('IMAG/bg.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 35%;
+    height: 35%;
+}
+
+.comeco{
+    padding-left: 250px;
+    padding-bottom: 70px;
+}
+h3 {
+    font-family: "Avenir Roman", sans-serif;
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    padding-bottom: 20px;
+}
+
+.precos a{
+    display: flex;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    padding-left: 190px;
+    padding-top: 30px;
+    background-color: MediumPurple;
+    width: 600px;
+    height: 90px;
+    border-radius: 10px;
+}
+p{
+    color:DarkGray;
+    font-size: 21px;
+    padding-left: 158px;
+    padding-top: 57px;
+    padding-bottom: 50px;
+}
+
+a{
+    color: whitesmoke;
+    font-size: 40px;
+    padding-top: 500px;
+    padding-left: 152px;
+}
+h4{
+    color: DarkGray;
+    padding-left: 90px;
+    padding-top: 22px;
+    font-size: 40px;
+}
